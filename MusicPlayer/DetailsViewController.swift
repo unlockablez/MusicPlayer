@@ -10,7 +10,7 @@ import UIKit
 import MediaPlayer
 import QuartzCore
 
-class DetailsViewController: UIViewController, APIControllerProtocol {
+class DetailsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, APIControllerProtocol {
     
     lazy var api : APIController = APIController(delegate: self)
     

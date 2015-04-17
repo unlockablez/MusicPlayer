@@ -95,12 +95,12 @@
 				01AEBB571AE0DE4E00605100 /* DetailsViewController.swift */,
 				B5728B321ACC70A90060B8D8 /* AppDelegate.swift */,
 				B5728B341ACC70A90060B8D8 /* SearchResultsViewController.swift */,
-				B5728B361ACC70A90060B8D8 /* Main.storyboard */,
 				01AEBB5B1AE0E84700605100 /* TrackCell.swift */,
-				B5728B391ACC70A90060B8D8 /* Images.xcassets */,
-				B5728B3B1ACC70A90060B8D8 /* LaunchScreen.xib */,
-				B5728B301ACC70A90060B8D8 /* Supporting Files */,
 				B5E983F11ACC76F50094433B /* APIController.swift */,
+				B5728B361ACC70A90060B8D8 /* Main.storyboard */,
+				B5728B3B1ACC70A90060B8D8 /* LaunchScreen.xib */,
+				B5728B391ACC70A90060B8D8 /* Images.xcassets */,
+				B5728B301ACC70A90060B8D8 /* Supporting Files */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
