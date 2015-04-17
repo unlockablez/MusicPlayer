@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01AEBB561AE0DA9000605100 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AEBB551AE0DA9000605100 /* Album.swift */; };
+		01AEBB581AE0DE4E00605100 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AEBB571AE0DE4E00605100 /* DetailsViewController.swift */; };
+		01AEBB5A1AE0E57C00605100 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AEBB591AE0E57C00605100 /* Track.swift */; };
+		01AEBB5C1AE0E84700605100 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AEBB5B1AE0E84700605100 /* TrackCell.swift */; };
 		B533B3FC1ACC8BC300E10BD2 /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = B533B3FA1ACC8BC300E10BD2 /* Blank52.png */; };
 		B5728B331ACC70A90060B8D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5728B321ACC70A90060B8D8 /* AppDelegate.swift */; };
 		B5728B351ACC70A90060B8D8 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5728B341ACC70A90060B8D8 /* SearchResultsViewController.swift */; };
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01AEBB551AE0DA9000605100 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		01AEBB571AE0DE4E00605100 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		01AEBB591AE0E57C00605100 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		01AEBB5B1AE0E84700605100 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		B533B3FA1ACC8BC300E10BD2 /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank52.png; sourceTree = "<group>"; };
 		B5728B2D1ACC70A90060B8D8 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5728B311ACC70A90060B8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,9 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				B533B3FA1ACC8BC300E10BD2 /* Blank52.png */,
+				01AEBB551AE0DA9000605100 /* Album.swift */,
+				01AEBB591AE0E57C00605100 /* Track.swift */,
+				01AEBB571AE0DE4E00605100 /* DetailsViewController.swift */,
 				B5728B321ACC70A90060B8D8 /* AppDelegate.swift */,
 				B5728B341ACC70A90060B8D8 /* SearchResultsViewController.swift */,
 				B5728B361ACC70A90060B8D8 /* Main.storyboard */,
+				01AEBB5B1AE0E84700605100 /* TrackCell.swift */,
 				B5728B391ACC70A90060B8D8 /* Images.xcassets */,
 				B5728B3B1ACC70A90060B8D8 /* LaunchScreen.xib */,
 				B5728B301ACC70A90060B8D8 /* Supporting Files */,
@@ -219,9 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AEBB5C1AE0E84700605100 /* TrackCell.swift in Sources */,
 				B5728B351ACC70A90060B8D8 /* SearchResultsViewController.swift in Sources */,
 				B5728B331ACC70A90060B8D8 /* AppDelegate.swift in Sources */,
 				B5E983F21ACC76F50094433B /* APIController.swift in Sources */,
+				01AEBB561AE0DA9000605100 /* Album.swift in Sources */,
+				01AEBB581AE0DE4E00605100 /* DetailsViewController.swift in Sources */,
+				01AEBB5A1AE0E57C00605100 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

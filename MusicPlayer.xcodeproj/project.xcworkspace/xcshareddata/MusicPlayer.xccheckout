@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>38B8F9AB-7ED2-4B69-B41A-A23D39D788B4</string>
+	<string>FE81CB7A-DFDE-4AC3-817C-5C572CEF32D9</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MusicPlayer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AF8BC6BBEF17198B7382EFEC4B7E70801801D95D</key>
-		<string>https://github.com/suebtas/MusicPayer</string>
+		<string>https://github.com/suebtas/MusicPayer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MusicPlayer.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/suebtas/MusicPayer</string>
+	<string>https://github.com/suebtas/MusicPayer.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
