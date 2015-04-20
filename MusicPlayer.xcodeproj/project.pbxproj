@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01979E821AE50C390069DDBA /* TryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 01979E811AE50C390069DDBA /* TryCatch.m */; };
 		01AEBB561AE0DA9000605100 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AEBB551AE0DA9000605100 /* Album.swift */; };
 		01AEBB581AE0DE4E00605100 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AEBB571AE0DE4E00605100 /* DetailsViewController.swift */; };
 		01AEBB5A1AE0E57C00605100 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AEBB591AE0E57C00605100 /* Track.swift */; };
@@ -32,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01979E7F1AE50C390069DDBA /* MusicPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MusicPlayer-Bridging-Header.h"; path = "MusicPlayer/MusicPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		01979E801AE50C390069DDBA /* TryCatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TryCatch.h; sourceTree = SOURCE_ROOT; };
+		01979E811AE50C390069DDBA /* TryCatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TryCatch.m; sourceTree = SOURCE_ROOT; };
 		01AEBB551AE0DA9000605100 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		01AEBB571AE0DE4E00605100 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		01AEBB591AE0E57C00605100 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
@@ -71,9 +75,12 @@
 		B5728B241ACC70A90060B8D8 = {
 			isa = PBXGroup;
 			children = (
+				01979E801AE50C390069DDBA /* TryCatch.h */,
+				01979E811AE50C390069DDBA /* TryCatch.m */,
 				B5728B2F1ACC70A90060B8D8 /* MusicPlayer */,
 				B5728B451ACC70A90060B8D8 /* MusicPlayerTests */,
 				B5728B2E1ACC70A90060B8D8 /* Products */,
+				01979E7F1AE50C390069DDBA /* MusicPlayer-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,6 +245,7 @@
 				01AEBB561AE0DA9000605100 /* Album.swift in Sources */,
 				01AEBB581AE0DE4E00605100 /* DetailsViewController.swift in Sources */,
 				01AEBB5A1AE0E57C00605100 /* Track.swift in Sources */,
+				01979E821AE50C390069DDBA /* TryCatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,9 +370,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MusicPlayer/MusicPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -372,9 +383,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MusicPlayer/MusicPlayer-Bridging-Header.h";
 			};
 			name = Release;
 		};

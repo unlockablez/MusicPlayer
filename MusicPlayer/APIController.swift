@@ -40,15 +40,16 @@ class APIController {
             if(error != nil) {
                 // If there is an error in the web request, print it to the console
                 println(error.localizedDescription)
+            } else {
+                var err: NSError?
+                var jsonResult = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &err) as! NSDictionary
+                if(err != nil) {
+                    // If there is an error parsing JSON, print it to the console
+                    println("JSON Error \(err!.localizedDescription)")
+                }
+                let results: NSArray = jsonResult["results"] as! NSArray
+                self.delegate!.didReceiveAPIResults(jsonResult) // THIS IS THE NEW LINE!!
             }
-            var err: NSError?
-            var jsonResult = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &err) as! NSDictionary
-            if(err != nil) {
-                // If there is an error parsing JSON, print it to the console
-                println("JSON Error \(err!.localizedDescription)")
-            }
-            let results: NSArray = jsonResult["results"] as! NSArray
-            self.delegate!.didReceiveAPIResults(jsonResult) // THIS IS THE NEW LINE!! 
             })
         task.resume()
     }
